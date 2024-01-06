@@ -2,8 +2,9 @@
 
 #include <iostream>
 #include <climits>
-using  namespace std;
-int main() {
+using namespace std;
+int main()
+{
 
   int n;
   cout << "Enter Length of array: ";
@@ -11,14 +12,18 @@ int main() {
   int arr[n];
   for (int i = 0; i < n; i++)
   {
-      cin>> arr[i];
+    cin >> arr[i];
   }
 
+  int maxNo = INT_MIN;
   int minNo = INT_MAX;
+
   for (int i = 0; i < n; i++)
   {
-      minNo = max(arr[i], minNo);
+    maxNo = max(arr[i], maxNo); // for max number
+    minNo = min(arr[i], minNo); // for min number
   }
-  cout<<"Greater Number in array is: "<<minNo<<endl;
+  cout << "Greatest Number in array is: " << maxNo << endl;
+  cout << "Smallest Number in array is: " << minNo << endl;
   return 0;
 }

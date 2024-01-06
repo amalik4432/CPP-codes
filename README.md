@@ -7,9 +7,7 @@ This repository serves as my personal collection of notes for my journey in lear
 ## Purpose
 
 - **Learning Journey:** Documenting my C++ learning journey to track progress and reinforce understanding.
-  
 - **Quick Reference:** Creating a quick reference guide for various C++ concepts, syntax, and best practices.
-  
 - **DCA Assistance:** A resource to assist in the DCA (Data and Cloud Associate) certification preparation by consolidating relevant C++ knowledge.
 
 ## Contents
