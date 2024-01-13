@@ -41,9 +41,5 @@ int main()
     cout << "Enter key: ";
     cin >> key;
     cout << binarySearch(key, arr, n, flag);
-    if (flag == 1)
-    {
-        cout << "Key pen yaak hai";
-    }
     return 0;
 }
