@@ -30,4 +30,5 @@ int main()
     {
         cout << "Key not found";
     }
+    return 0;
 }
