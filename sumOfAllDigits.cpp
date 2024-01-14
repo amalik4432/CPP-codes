@@ -12,6 +12,6 @@ int main()
         sum += rem;
         n /= 10;
     }
-    cout << "Reversed number: " << sum;
+    cout << "sum of all numbers: " << sum;
     return 0;
 }
